@@ -6,6 +6,7 @@ FLUSH PRIVILEGES;
 
 
 -- Create Tables
+USE react_node_app;
 CREATE TABLE `author` ( 
   `id` int NOT NULL AUTO_INCREMENT, 
   `name` varchar(255) NOT NULL, 
